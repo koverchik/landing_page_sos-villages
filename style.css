@@ -1,0 +1,313 @@
+@font-face {
+    font-family: Artist;
+    src: url(fonts/TheArtist.otf); 
+   }
+@font-face {
+    font-family: Karton; 
+    src: url(fonts/Karton.otf); 
+   }
+@font-face { font-family: RobotoLight; 
+  src: url(fonts/RobotoLight.ttf);
+  }
+body {
+font-family: Arial;
+background-color: #2a3b6b;
+
+}
+
+header {
+	background: url(images/girlyandy.png) repeat-x;
+	padding-top: 20px;
+}
+header img{
+	float: left;
+}
+
+header h1{
+	font-family: Artist;
+	font-size: 34pt;
+	text-transform: uppercase;
+	color: #f69d4e;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	padding: 25px 0px;
+	font-weight: normal;
+	
+	}
+
+h2{
+	font-family: Karton;
+	font-size: 52pt;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	text-shadow: 3px 1px 2px black, 0 0 1em black;
+}
+
+#contacts{font-family: RobotoLight;
+	font-size: 16pt;
+	float: right;
+	color: #faf7f9;
+	padding-right: 25px;
+	}
+		
+#contacts p{ text-align: right;}
+
+	
+#tags p{display: inline;
+padding: 0px 8px;
+}
+
+#specification{
+	background-color: #506194;
+	margin-top: 40px;
+	border: 5px solid white;
+	border-radius: 16px;
+}
+
+#specification p {
+		font-family: Artist;
+		font-size: 40pt;
+		text-align: center;
+		color: #f69d4e;
+}
+#arrow {
+text-align: center;
+}
+
+#tags{
+	font-family: Artist;
+	color: #c7a589;
+	font-size: 16pt;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 40px 0px;
+}
+#meaning{background-color: #d4dcf3;
+margin: 0px 50px;
+border-radius: 16px;
+		}
+	
+#definition {
+	padding-bottom: 10px;
+	display: none;}
+
+#definition p{font-family: RobotoLight;
+	text-align: center;
+	margin: 10px;
+	}
+
+h3{
+	font-family: Artist;	
+	font-size: 38pt;
+	color: #f69d4e;
+	text-align: center;
+	font-weight: 300;}
+	
+#select_panel{
+	display: flex;
+	padding-top: 40px;
+	}
+	
+	
+#gift_box{
+	flex-grow: 1;
+	padding-left: 50px;
+	position: relative;
+}
+		
+		
+#tape {
+	position: absolute;
+	width: 40px;
+	height: 380px;
+	left: 203px;
+	bottom: 4px;
+	}		
+		
+#bow{
+	position: absolute;
+	left: 80px;
+	top: 20px;
+	width: 285px;
+	height: 300px;
+	background-repeat: no-repeat;
+
+	}
+		
+#list_gifts, #packing_options{
+	overflow:scroll;
+	height: 200px;
+	background-color: #e8f0ff;
+	background-color: rgba(232, 240, 255, .5);
+	font-family:RobotoLight;
+	text-transform: uppercase;
+	font-size: 16pt;
+	padding-top: 5px;
+	display: none;
+	}
+	
+		
+#packing_options div,  #packing_options img {margin: 0px 5px;}
+	
+#list_gifts p, #packing_options p{margin: 15px 20px;}
+	
+#list_gifts p {
+	cursor: default;
+}
+
+
+.direction{
+	display: flex;
+	flex-direction: row;
+	align-items: center;}
+
+	
+	
+#magenta_tape, #green_tape, #blue_tape, #yellow_tape, #white_tape, #pink_tape, #magenta, #green, #blue, #yellow, #white, #pink{
+	width: 30px;
+    height: 30px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+	border: 1px solid black;
+}
+	
+	
+	
+	 #magenta_tape, #magenta{background: #9681b6;}
+	 #green_tape, #green {background: #79c471;}
+	 #blue_tape, #blue{background: #4daab2;}
+	 #yellow_tape, #yellow {background: #fef668;}
+	 #white_tape,#white{background: white;}
+	 #pink_tape, #pink{background: #db0634;}
+	
+	
+#steps{display: flex;
+	flex-direction: column;
+	flex-grow: 2;
+	align-items:stretch;
+	margin-right: 50px;
+}
+
+.step{
+font-family: Artist;
+font-size: 40pt;
+text-transform: uppercase;
+color: #f69d4e;
+flex-basis:130px;
+}
+
+#time_New_Year{
+padding-top: 20px;
+font-family: Artist;
+text-transform: uppercase;
+
+}
+
+#time_New_Year p {
+color: white;
+
+}
+#time_New_Year{
+	text-align: center;
+}
+
+#nameCalculagraph{
+font-size: 40pt;}
+
+#time_New_Year time{
+display: flex;
+flex-direction: row;
+
+}
+
+time p{font-size: 20pt;
+}
+
+
+#day_сount, #hour_сount, #minute_сountdown, #countdown_seconds{
+font-size: 42pt;
+color: black;
+background-color: #d4dcf3;
+border-radius: 16px;
+min-width: 60px;
+min-width: 60px;
+margin: 15px;
+padding: 10px;
+
+}
+
+#contribution, #packaging {
+	display: flex;
+	flex-flow: column  wrap;
+	flex-grow: 2;
+	padding-left: 13px;
+}
+
+
+.selection, #donation{
+	display: flex;
+	flex-flow: row  wrap;
+	}
+
+#donation p {flex-basis:143px;}
+
+#donation a{
+	text-decoration: none;
+	flex-grow: 2;}
+
+
+	#donation h4{
+	background-color: #f69d4e;
+	color: #2a3b6b;
+	text-align: center;
+	}
+
+h4{
+	background-color: #e8f0ff;
+	font-family: Artist;
+	font-size: 21pt;
+	text-transform: uppercase;
+	margin-top: 14px;
+	padding: 4px 15px;
+	
+}
+
+#motivation {
+	padding-top: 30px;
+	float: left;
+	}
+
+#motivation h5 {
+	font-size: 35pt;
+	color: #f77400;
+	font-weight: 300;
+		}
+#motivation h6{	
+	font-family:RobotoLight;
+	font-size: 16pt;
+	
+} 
+footer img{display: inline-block;
+	float: right;
+	padding: 2% 1%;
+}
+
+#short_description{
+	font-family:RobotoLight;
+	font-size: 11pt;
+	display: inline-block;
+	width: 100%;}
+	#part1{
+		float: left;
+	}
+	#part2{
+		float: right;
+	}
+footer{margin-top: 100px;
+	background: url(images/snow-footer.png) repeat-x;
+	font-family: Artist;
+	width: 96%;
+	padding: 2% 2% 0% 2%;}
